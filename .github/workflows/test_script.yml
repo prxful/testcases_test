@@ -27,7 +27,6 @@ jobs:
           echo "PKG_CONFIG=${{ secrets.PKG_CONFIG }}" >> .env
           echo "PKG_TRANS=${{ secrets.PKG_TRANS }}" >> .env
           echo "REL_MMGT=${{ secrets.REL_MMGT }}" >> .env
-          echo "PENDING_PKG=${{ secrets.PENDING_PKG }}" >> .env
 
       - name: Install Packages
         run: pip install -r requirements.txt
