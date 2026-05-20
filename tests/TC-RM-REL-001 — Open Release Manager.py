@@ -1,6 +1,7 @@
 import pytest
 import re
 from playwright.sync_api import Page, expect
+from config import BASE_URL, BASE_UNAME, PASSWORD
 
 
 @pytest.fixture(scope="session")
