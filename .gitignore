@@ -2,3 +2,4 @@ __pycache__/
 .env
 .pytest_cache/
 sync_teams.ps1
+debug.py
