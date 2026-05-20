@@ -16,8 +16,6 @@ def test_example(page: Page) -> None:
     page.get_by_role("textbox", name="Password").click()
     page.get_by_role("textbox", name="Password").fill(PASSWORD)
     page.get_by_role("button", name="Login").click()
-    page.get_by_role("link", name=PKG_TRANS).click()
-    page.get_by_role("link", name=f"{PKG_TRANS} PENDING").click()
     page.get_by_role("link", name="Release Manager").click()
     page.get_by_role("heading", name="TEST9876").click()
     page.get_by_role("textbox", name="i.e., CM.MYC.0801.V01").click()
